@@ -3,7 +3,7 @@ import { v } from 'convex/values';
 
 export default defineSchema({
 	podcasts: defineTable({
-		user: v.id('_users'),
+		user: v.id('users'),
 		podcastTitle: v.string(),
 		podcastDescription: v.string(),
 		audioUrl: v.optional(v.string()),
