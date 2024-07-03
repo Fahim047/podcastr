@@ -24,7 +24,7 @@ const EmptyState = ({
 				</h1>
 				{search && (
 					<p className="text-16 text-center font-medium text-white-2">
-						Try adjusting your search to find what you're looking
+						Try adjusting your search to find what you are looking
 						for.
 					</p>
 				)}
